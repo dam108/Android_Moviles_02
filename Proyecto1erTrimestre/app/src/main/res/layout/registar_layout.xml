@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".loginActivity"
+        android:background="@color/ColorRojoFondo">
+
+
+        <ImageView
+            android:id="@+id/logo_login_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:id="@+id/nombre_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/logo_login_imageView"
+            android:textColor="@color/cardview_light_background"
+            android:fontFamily="@font/galdeano"
+            android:text="@string/nombre_usuario"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/nombre_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_tu_nombre"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/login_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/nombre_editText"
+            android:textColor="@color/cardview_light_background"
+            android:fontFamily="@font/galdeano"
+            android:text="@string/login_usuario_lbl"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/login_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_nombre_de_usuario"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:singleLine="true" />
+
+
+        <TextView
+            android:id="@+id/contrasena_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/login_editText"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/login_contrasena_lbl"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/contrasena_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contrasena_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_contrase_a"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/direccion_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/contrasena_editText"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/direcci_n"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/direccion_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/direccion_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_tu_direcci_n"
+            android:imeOptions="actionNext"
+            android:inputType="text|textPostalAddress"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/numeroCasa_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/direccion_editText"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/n_de_vivienda"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/numeroCasa_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numeroCasa_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/n_vivienda_opcional"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/codigoPostal_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/numeroCasa_editText"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/c_digo_postal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/codigoPostal_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/codigoPostal_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_tu_c_digo_postal"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/provincia_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/codigoPostal_editText"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/provincia"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <Spinner
+            android:id="@+id/provincias_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/provincia_Lbl"
+            android:layout_centerInParent="true"
+            android:entries="@array/provincias_array"
+            />
+
+        <TextView
+            android:id="@+id/pais_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/provincias_spinner"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/pais"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <CheckBox
+            android:id="@+id/pais_Check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/pais_Lbl"
+            android:text="@string/espa_a"
+            android:checked="true"
+            />
+
+        <TextView
+            android:id="@+id/numeroTlf_Lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/pais_Check"
+            android:fontFamily="@font/galdeano"
+            android:textColor="@color/cardview_light_background"
+            android:text="@string/numero_de_tel_fono"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="PrivateResource" />
+
+        <EditText
+            android:id="@+id/numeroTlf_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numeroTlf_Lbl"
+            android:layout_centerInParent="true"
+            android:ellipsize="start"
+            android:ems="15"
+            android:gravity="center_horizontal"
+            android:hint="@string/introduce_tu_n_mero_de_telefono"
+            android:imeOptions="actionSend"
+            android:onClick="RegistrarUsuario_Click"
+            android:inputType="number"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/registrarUsuario_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrarse"
+            android:textColor="@color/cardview_light_background"
+            android:layout_below="@id/numeroTlf_editText"
+            android:layout_margin="25dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/galdeano"
+            android:onClick="RegistrarUsuario_Click"
+            tools:ignore="PrivateResource" />
+
+    </RelativeLayout>
+</ScrollView>

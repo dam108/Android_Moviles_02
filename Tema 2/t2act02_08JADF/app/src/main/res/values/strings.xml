@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">t2atc0208JADF</string>
+    <string name="text_FrameLayout">FrameLayOutD_05JADF</string>
+    <string name="name_relative">Jose Angel Doval nº Practicas 08</string>
+    <string name="text_1">Android 10 API 29 03-09-2019</string>
+    <string name="text_2">Pie 9.0 API 28 06-08-2018</string>
+    <string name="text_3"> Oreo 8.0 API 26-27 21-08-2017</string>
+    <string name="text_4">Nougat 7.0 API 24-25 22-08-2016</string>
+    <string name="text_check">Nuevo chekBox</string>
+    <string name="boton">Enviar</string>
+</resources>

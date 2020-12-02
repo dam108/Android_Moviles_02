@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">t2act05.1_08JADF</string>
+    <string name="bf">Book flight 08JADF</string>
+    <string name="rt">Roundtrip</string>
+    <string name="ow">One way</string>
+    <string name="H">History</string>
+    <string name="from">From</string>
+    <string name="to">To 08JADF</string>
+    <string name="dp">Depart</string>
+    <string name="ret">Return</string>
+    <string name="pas">Passengers</string>
+    <string name="mnos">Maximun Number of stops</string>
+    <string name="nonstop">Non Stop</string>
+    <string name="onestop">One Stop</string>
+    <string name="twoormore">2 or more</string>
+    <string name="search">Search flights 08JADF</string>
+    <string name="htmlText"></string>
+    <string name="payWithAvios">Pay With Avios</string>
+    <string name="flexDates">Flexible dates</string>
+    <string name="fClass">Flight Class</string>
+</resources>

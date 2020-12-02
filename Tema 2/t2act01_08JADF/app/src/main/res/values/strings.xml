@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">t2act0108JADF</string>
+    <string name="registro">REGISTRO 08_JADF</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombreCompleto">Formato: Apellido1 Apellido2, Nombre</string>
+    <string name="texto01">La información personal que recabamos de nuestros clientes
+        nos ayuda a personalizar y mejorar continuamente sus compras en ejemplo.es.
+        En general, utilizamos la información para gestionar pedidos, entregar productos y
+        ofrecer servicios, procesar pagos, ponernos en contacto con usted en relación con pedidos,
+        productos, servicios y ofertas promocionales, actualizar nuestros registros, realizar el
+        mantenimiento de su cuenta en Ejemplo, mostrar contenidos como las listas de deseos y
+        opiniones de los clientes y para recomendar productos y servicios que pudieran serle
+        de interés. También hacemos uso de esta información para mejorar nuestra tienda y
+        nuestra plataforma, así como para prevenir o detectar fraudes o abusos en nuestro sitio web,
+        y para permitir a terceras partes llevar a cabo soporte técnico, logístico u otras funciones
+        en nuestro nombre.</string>
+    <string name="envBot">Enviar</string>
+</resources>

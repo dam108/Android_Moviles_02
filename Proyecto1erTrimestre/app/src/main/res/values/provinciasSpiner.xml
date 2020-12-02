@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provincias_array">
+        <item>Elige Provincia</item>
+        <item>A Coruña</item>
+        <item>Lugo</item>
+        <item>Orense</item>
+        <item>Pontevedra</item>
+    </string-array>
+</resources>

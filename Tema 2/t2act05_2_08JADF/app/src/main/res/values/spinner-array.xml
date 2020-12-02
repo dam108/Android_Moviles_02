@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="elemenost_clase_vuelo">
+        <item>Choose flight class</item>
+        <item>First</item>
+        <item>Business</item>
+        <item>Economy</item>
+    </string-array>
+</resources>

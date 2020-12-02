@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/bookflight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/bf"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookflight"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:text="@string/rt" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/ow" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="@string/H" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup01"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="15dp"
+        android:text="@string/from"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFrom"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="15dp"
+        android:text="@string/to"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/depart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTo"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="15dp"
+        android:text="@string/dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTo"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/ret"
+        android:textColor="@color/dark_blue"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTo"
+        android:layout_alignParentRight="true"
+
+        android:fontFamily="sans-serif"
+        android:paddingRight="55dp"
+        android:text="@string/pas"
+        android:textColor="@color/dark_blue"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextTextDepart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/depart"
+        android:ems="4"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextTextRet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/depart"
+        android:layout_centerInParent="true"
+        android:ems="4"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/pass"
+        android:layout_alignLeft="@id/pass"
+
+        app:srcCompat="@drawable/menos" />
+
+    <EditText
+        android:id="@+id/editTextTextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_toRightOf="@id/imageButton2"
+
+        android:ems="1"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/pass"
+        android:layout_toRightOf="@id/editTextTextPass"
+        app:srcCompat="@drawable/mas" />
+
+    <TextView
+        android:id="@+id/mnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextDepart"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="15dp"
+        android:text="@string/mnos"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mnos"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/nontop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/nonstop" />
+
+        <RadioButton
+            android:id="@+id/onestop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/onestop" />
+
+        <RadioButton
+            android:id="@+id/twostopormore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:padding="10dp"
+            android:text="@string/twoormore" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroup02"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/dark_red"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="5dp"
+        android:text="@string/search" />
+
+
+</RelativeLayout>

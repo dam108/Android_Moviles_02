@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">t2act04_08JADF</string>
+    <string name="provincia">LA Coruña, ES 08JADF</string>
+    <string name="humedad">Humidity\n72%</string>
+    <string name="presion">Pressure\n1025 hPa</string>
+    <string name="cielo">Clear\nSky 08JADF</string>
+    <string name="viento">N at\n0 mph</string>
+    <string name="forecast">Forecast 08JADF</string>
+    <string name="miercoles">Wednesday</string>
+    <string name="jueves">Thursday</string>
+    <string name="viernes">Friday</string>
+    <string name="sabado">Saturday</string>
+    <string name="domingo">Sunday 08JADF</string>
+    <string name="lunes">Monday</string>
+    <string name="martes">Tuesday</string>
+
+</resources>
